@@ -27,7 +27,6 @@ public class Over5Activity extends BaseActivity {
     protected void initImmersionBar() {
         super.initImmersionBar();
         mImmersionBar.titleBar(toolbar)
-                .navigationBarColor(R.color.colorPrimary)
                 .keyboardEnable(true)
                 .init();
     }

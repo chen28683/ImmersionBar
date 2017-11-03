@@ -27,7 +27,7 @@ public class Over6Activity extends BaseActivity {
     @Override
     protected void initImmersionBar() {
         super.initImmersionBar();
-        mImmersionBar.navigationBarColor(R.color.colorPrimary)
+        mImmersionBar
                 .titleBarMarginTop(R.id.toolbar)
                 .statusBarColor(R.color.colorPrimary)
                 .keyboardEnable(true)

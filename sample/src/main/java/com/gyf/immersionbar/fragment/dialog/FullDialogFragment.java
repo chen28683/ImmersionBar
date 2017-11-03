@@ -34,7 +34,6 @@ public class FullDialogFragment extends BaseDialogFragment {
         mImmersionBar
                 .titleBar(toolbar)
                 .statusBarDarkFont(true)
-                .navigationBarColor(R.color.btn3)
                 .keyboardEnable(true)
                 .init();
     }

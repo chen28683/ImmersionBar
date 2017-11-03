@@ -41,7 +41,7 @@ public class ColorActivity extends BaseActivity {
         super.initImmersionBar();
         mImmersionBar.statusBarView(R.id.top_view)
                 .statusBarColor(R.color.colorPrimary)
-                .navigationBarColor(R.color.btn8)
+//                .navigationBarColor(R.color.btn8)
                 .init();
     }
 
@@ -54,7 +54,7 @@ public class ColorActivity extends BaseActivity {
                 textView.setText("透明度:" + alpha + "f");
                 mImmersionBar.barAlpha(alpha)
                         .statusBarColorTransform(R.color.btn14)
-                        .navigationBarColorTransform(R.color.btn3)
+//                        .navigationBarColorTransform(R.color.btn3)
                         .addViewSupportTransformColor(mToolbar)
                         .addViewSupportTransformColor(btn1, R.color.btn1, R.color.btn4)
                         .addViewSupportTransformColor(btn2, R.color.btn3, R.color.btn12)

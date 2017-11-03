@@ -69,10 +69,10 @@ public class FragmentFiveActivity extends SupportActivity {
                     NAVIGATIONBAR_IS_MIN, 0);
             if (navigationBarIsMin == 1) {
                 //导航键隐藏了
-                mImmersionBar.transparentNavigationBar().init();
+                mImmersionBar.init();
             } else {
                 //导航键显示了
-                mImmersionBar.navigationBarColor(android.R.color.black) //隐藏前导航栏的颜色
+                mImmersionBar //隐藏前导航栏的颜色
                         .fullScreen(false)
                         .init();
             }

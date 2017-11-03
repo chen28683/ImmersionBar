@@ -21,7 +21,7 @@ public class BackActivity extends SwipeBackActivity {
         setContentView(R.layout.activity_swipe_back);
         ImmersionBar.with(this)
                 .titleBar(R.id.toolbar)
-                .navigationBarColor(R.color.colorPrimary)
+//                .navigationBarColor(R.color.colorPrimary)
                 .init();
     }
 

@@ -4,10 +4,6 @@ import android.text.TextUtils;
 
 import java.lang.reflect.Method;
 
-/**
- * 手机系统判断
- * Created by geyifeng on 2017/4/18.
- */
 public class OSUtils {
 
     private static final String KEY_MIUI_VERSION_NAME = "ro.miui.ui.version.name";

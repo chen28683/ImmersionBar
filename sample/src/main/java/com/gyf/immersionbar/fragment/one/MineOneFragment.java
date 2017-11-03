@@ -35,7 +35,6 @@ public class MineOneFragment extends BaseLazyFragment {
         super.initImmersionBar();
         ImmersionBar.with(this)
                 .statusBarDarkFont(true)
-                .navigationBarColor(R.color.btn1)
                 .init();
     }
 }

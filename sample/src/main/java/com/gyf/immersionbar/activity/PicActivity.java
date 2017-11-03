@@ -40,7 +40,6 @@ public class PicActivity extends SwipeBackActivity {
                 textView.setText("透明度:" + alpha + "f");
                 ImmersionBar.with(PicActivity.this)
                         .addViewSupportTransformColor(toolbar, R.color.colorPrimary)
-                        .navigationBarColorTransform(R.color.orange)
                         .barAlpha(alpha)
                         .init();
             }

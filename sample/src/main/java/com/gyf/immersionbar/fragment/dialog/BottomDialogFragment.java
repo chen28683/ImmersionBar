@@ -28,7 +28,7 @@ public class BottomDialogFragment extends BaseDialogFragment {
     @Override
     protected void initImmersionBar() {
         super.initImmersionBar();
-        mImmersionBar.navigationBarColor(R.color.cool_green_normal).init();
+        mImmersionBar.init();
     }
 
     @Override

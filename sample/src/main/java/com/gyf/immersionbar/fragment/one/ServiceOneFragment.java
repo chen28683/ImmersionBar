@@ -34,7 +34,6 @@ public class ServiceOneFragment extends BaseLazyFragment {
     protected void initImmersionBar() {
         super.initImmersionBar();
         ImmersionBar.with(this)
-                .navigationBarColor(R.color.btn13)
                 .init();
     }
 }

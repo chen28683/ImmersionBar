@@ -30,7 +30,6 @@ public class PicAndColorActivity extends BaseActivity implements SeekBar.OnSeekB
     protected void initImmersionBar() {
         super.initImmersionBar();
         mImmersionBar.statusBarView(R.id.top_view)
-                .navigationBarColor(R.color.colorPrimary)
                 .fullScreen(true)
                 .addTag("PicAndColor")  //给上面参数打标记，以后可以通过标记恢复
                 .init();
@@ -48,9 +47,6 @@ public class PicAndColorActivity extends BaseActivity implements SeekBar.OnSeekB
                 mImmersionBar.statusBarColor(R.color.colorAccent).init();
                 break;
             case R.id.btn_navigation_color:
-                if (ImmersionBar.hasNavigationBar(this))
-                    mImmersionBar.navigationBarColor(R.color.colorAccent).init();
-                else
                     Toast.makeText(this, "当前设备没有导航栏", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btn_color:
@@ -63,7 +59,6 @@ public class PicAndColorActivity extends BaseActivity implements SeekBar.OnSeekB
     public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
         float alpha = (float) progress / 100;
         mImmersionBar.statusBarColorTransform(R.color.orange)
-                .navigationBarColorTransform(R.color.tans)
                 .addViewSupportTransformColor(toolbar)
                 .barAlpha(alpha)
                 .init();

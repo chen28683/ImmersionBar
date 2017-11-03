@@ -35,7 +35,6 @@ public class LeftDialogFragment extends BaseDialogFragment {
     protected void initImmersionBar() {
         super.initImmersionBar();
         mImmersionBar.titleBar(toolbar)
-                .navigationBarColor(R.color.btn11)
                 .keyboardEnable(true)
                 .init();
     }

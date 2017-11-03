@@ -27,7 +27,6 @@ public class Over4Activity extends BaseActivity {
     protected void initImmersionBar() {
         super.initImmersionBar();
         mImmersionBar.statusBarView(view)
-                .navigationBarColor(R.color.colorPrimary)
                 .keyboardEnable(true)
                 .init();
     }

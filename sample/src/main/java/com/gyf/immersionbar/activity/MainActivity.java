@@ -109,26 +109,19 @@ public class MainActivity extends BaseActivity {
                 mImmersionBar.hideBar(BarHide.FLAG_HIDE_STATUS_BAR).init();
                 break;
             case R.id.btn_navigation_hide:
-                if (ImmersionBar.hasNavigationBar(this))
-                    ImmersionBar.with(this).hideBar(BarHide.FLAG_HIDE_NAVIGATION_BAR).init();
-                else
-                    Toast.makeText(this, "当前设备没有导航栏或者低于4.4系统", Toast.LENGTH_SHORT).show();
+//                if (ImmersionBar.hasNavigationBar(this))
+//                   // ImmersionBar.with(this).hideBar(BarHide.FLAG_HIDE_NAVIGATION_BAR).init();
+//                else
+//                    Toast.makeText(this, "当前设备没有导航栏或者低于4.4系统", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btn_bar_hide:
-                mImmersionBar.hideBar(BarHide.FLAG_HIDE_BAR).init();
+                // mImmersionBar.hideBar(BarHide.FLAG_HIDE_BAR).init();
                 break;
             case R.id.btn_bar_show:
                 mImmersionBar.hideBar(BarHide.FLAG_SHOW_BAR).init();
                 break;
             case R.id.btn_full:
-                if (ImmersionBar.hasNavigationBar(this)) {
-                    BarParams barParams = mImmersionBar.getBarParams();
-                    if (barParams.fullScreen)
-                        mImmersionBar.fullScreen(false).navigationBarColor(R.color.black).init();
-                    else
-                        mImmersionBar.fullScreen(true).transparentNavigationBar().init();
-                } else
-                    Toast.makeText(this, "当前设备没有导航栏或者低于4.4系统", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this, "当前设备没有导航栏或者低于4.4系统", Toast.LENGTH_SHORT).show();
                 break;
             case R.id.btn_bar_font_dark:
                 if (ImmersionBar.isSupportStatusBarDarkFont())

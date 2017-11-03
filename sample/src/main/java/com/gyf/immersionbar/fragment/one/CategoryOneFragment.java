@@ -34,7 +34,6 @@ public class CategoryOneFragment extends BaseLazyFragment {
     protected void initImmersionBar() {
         super.initImmersionBar();
         mImmersionBar.statusBarDarkFont(true, 0.2f)
-                .navigationBarColor(R.color.btn3)
                 .init();
     }
 }

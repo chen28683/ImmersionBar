@@ -137,7 +137,6 @@ public class DialogActivity extends BaseActivity implements DialogInterface.OnDi
                 window.setLayout(width, height);
                 mImmersionBarDialog = ImmersionBar.with(this, dialog, "Full");
                 mImmersionBarDialog.titleBar(toolbar)
-                        .navigationBarColor(R.color.btn3)
                         .keyboardEnable(true)
                         .init();
                 break;
@@ -153,7 +152,7 @@ public class DialogActivity extends BaseActivity implements DialogInterface.OnDi
                 window.setWindowAnimations(R.style.BottomDialog);
                 window.setLayout(width, height / 2);
                 mImmersionBarDialog = ImmersionBar.with(this, dialog, "Bottom");
-                mImmersionBarDialog.navigationBarColor(R.color.cool_green_normal).init();
+                mImmersionBarDialog.init();
                 break;
             case R.id.btn_left:
                 window.setGravity(Gravity.TOP | Gravity.START);
@@ -161,7 +160,6 @@ public class DialogActivity extends BaseActivity implements DialogInterface.OnDi
                 window.setLayout(width * 2 / 3, height);
                 mImmersionBarDialog = ImmersionBar.with(this, dialog, "Left");
                 mImmersionBarDialog.titleBar(toolbar)
-                        .navigationBarColor(R.color.btn11)
                         .keyboardEnable(true).init();
                 break;
             case R.id.btn_right:
@@ -170,7 +168,6 @@ public class DialogActivity extends BaseActivity implements DialogInterface.OnDi
                 window.setLayout(width * 2 / 3, height);
                 mImmersionBarDialog = ImmersionBar.with(this, dialog, "Right");
                 mImmersionBarDialog.titleBar(toolbar)
-                        .navigationBarColor(R.color.btn6)
                         .keyboardEnable(true)
                         .init();
                 break;

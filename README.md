@@ -1,5 +1,5 @@
 ![logo](https://github.com/gyf-dev/Screenshots/blob/master/ImmersionBar/readme_head.png)
-# ImmersionBar -- android 4.4以上沉浸式实现 
+# ImmersionBar -- android 4.4以上沉浸式实现
 
 ## 直接看效果图，最下面有各个版本的效果图
 <img width="300"  src="https://github.com/gyf-dev/Screenshots/blob/master/ImmersionBar/Screenshot_6.0.gif"/>

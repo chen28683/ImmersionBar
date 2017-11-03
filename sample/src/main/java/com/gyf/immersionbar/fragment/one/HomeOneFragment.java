@@ -193,7 +193,6 @@ public class HomeOneFragment extends BaseLazyFragment {
     protected void initImmersionBar() {
         super.initImmersionBar();
         mImmersionBar.statusBarColorTransformEnable(false)
-                .navigationBarColor(R.color.colorPrimary)
                 .init();
     }
 }
